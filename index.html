@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preuzmi Kontakt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: white;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 60px 40px;
+            max-width: 500px;
+        }
+        .logo {
+            max-width: 250px;
+            height: auto;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #026eaa;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        p {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        button {
+            padding: 15px 40px;
+            font-size: 18px;
+            background: #026eaa;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(2, 110, 170, 0.3);
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(2, 110, 170, 0.4);
+            background: #025a8a;
+            transition: all 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ODM Collections Logo -->
+        <img src="odm-logo.png" alt="ODM Collections" class="logo">
+        
+        <h1>Aleksandar Miletić - Direktor Marketinga</h1>
+        <button onclick="downloadVCard()">Preuzmi Kontakt</button>
+    </div>
+    <script>
+        function downloadVCard() {
+            window.location.href = 'contact.vcf';
+        }
+    </script>
+</body>
+</html>
