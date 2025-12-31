@@ -1,9 +1,14 @@
+END:VCARD
 BEGIN:VCARD
 VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 18.2.1//EN
+N:Miletić;Aleksandar;;;
 FN:Aleksandar Miletić
-TEL:+381 64 3244 971
-EMAIL:aleksandar.miletic@odmc.rs
-ORG:ODMC
-URL:https://odmc.rs
-
+ORG:ODMC;
+EMAIL;type=INTERNET;type=HOME;type=pref:aleksandar.miletić@odmc.rs
+TEL;type=CELL;type=VOICE;type=pref:+381643244971
+item1.ADR;type=WORK;type=pref:;;\nLomina 20;Beograd;;;Serbia
+item1.X-ABADR:rs
+item2.URL;type=pref:https://www.odmc.rs
+item2.X-ABLabel:_$!<HomePage>!$_
 END:VCARD
